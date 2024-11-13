@@ -24,8 +24,8 @@ class PascalVOCDataset(BaseSegDataset):
                  seg_map_suffix='.png',
                  **kwargs) -> None:
         self.data_prefix = {
-            'img_path': r'root/FYP/data/JPEGImages',  # 图片路径
-            'seg_map_path': r'root/FYP/data/SegmentationClass'  # 分割标注路径
+            'img_path': r'/root/FYP/data/JPEGImages',  # 图片路径
+            'seg_map_path': r'/root/FYP/data/SegmentationClass'  # 分割标注路径
         }
         super().__init__(
             img_suffix=img_suffix,
