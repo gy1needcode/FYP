@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'PascalVOCDataset'
-data_root = r'C:\Users\53445\mmsegmentation\data'  # 修改为 S3DIS 数据集路径
+data_root = r'root/FYP/data'  # 修改为 S3DIS 数据集路径
 crop_size = (768, 1024)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
