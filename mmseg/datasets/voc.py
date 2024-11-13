@@ -19,7 +19,7 @@ class PascalVOCDataset(BaseSegDataset):
         palette=[[0, 0, 0], [128, 0, 0], [0, 128, 0], [128, 128, 0],])
 
     def __init__(self,
-                 ann_file='SegmentationClassNpy',
+                 ann_file='.txt',
                  img_suffix='.jpg',
                  seg_map_suffix='.png',
                  **kwargs) -> None:
